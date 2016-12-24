@@ -1,0 +1,764 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		372A2923A954D9F0C2EBFDE4 /* libPods-Continuum.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 236F03AACD47068D821448E6 /* libPods-Continuum.a */; };
+		791529C11C7F072700FB82C4 /* CNMVimeoRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 791529C01C7F072700FB82C4 /* CNMVimeoRequest.m */; };
+		791529C41C7F08C700FB82C4 /* CNMVimeoVideoRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 791529C31C7F08C700FB82C4 /* CNMVimeoVideoRequest.m */; };
+		791529C71C7F9F8600FB82C4 /* CNMVimeoVideoCreditsRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 791529C61C7F9F8600FB82C4 /* CNMVimeoVideoCreditsRequest.m */; };
+		794220C81C63E44B001F2793 /* CNMNetorkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 794220C71C63E44B001F2793 /* CNMNetorkManager.m */; };
+		794220CC1C63E4B3001F2793 /* CNMBaseRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 794220CB1C63E4B3001F2793 /* CNMBaseRequest.m */; };
+		794220D21C63F4CB001F2793 /* CNMVimeoChannelVideosRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 794220D11C63F4CB001F2793 /* CNMVimeoChannelVideosRequest.m */; };
+		79830B991C60421A00CF1780 /* CNMVideoEntryInformationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 79830B981C60421A00CF1780 /* CNMVideoEntryInformationView.m */; };
+		79830B9C1C60B1B400CF1780 /* CNMButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 79830B9B1C60B1B400CF1780 /* CNMButton.m */; };
+		79830B9F1C60C26800CF1780 /* CNMImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 79830B9E1C60C26800CF1780 /* CNMImageView.m */; };
+		79830BA21C60F2B500CF1780 /* CNMVideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79830BA11C60F2B500CF1780 /* CNMVideoViewController.m */; };
+		79830BA71C62191100CF1780 /* CNMVideoPlayerUIView.m in Sources */ = {isa = PBXBuildFile; fileRef = 79830BA61C62191100CF1780 /* CNMVideoPlayerUIView.m */; };
+		798D0EEC1C62DBA600153C97 /* CNMPlayheadView.m in Sources */ = {isa = PBXBuildFile; fileRef = 798D0EEB1C62DBA600153C97 /* CNMPlayheadView.m */; };
+		798D0EEE1C62ECDC00153C97 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 798D0EED1C62ECDC00153C97 /* MediaPlayer.framework */; };
+		799710741CA7F13B00666522 /* NSArray+CNMAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 799710731CA7F13B00666522 /* NSArray+CNMAdditions.m */; };
+		79A90FA91C5E12D5000428EE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 79A90FA81C5E12D5000428EE /* main.m */; };
+		79A910031C5E1327000428EE /* CNMApplicationDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 79A90FC11C5E1327000428EE /* CNMApplicationDelegate.m */; };
+		79A910051C5E1327000428EE /* CNMFeedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79A90FC51C5E1327000428EE /* CNMFeedViewController.m */; };
+		79A910061C5E1327000428EE /* CNMIntroductionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79A90FC71C5E1327000428EE /* CNMIntroductionViewController.m */; };
+		79A910071C5E1327000428EE /* CNMRSSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79A90FC91C5E1327000428EE /* CNMRSSViewController.m */; };
+		79A910081C5E1327000428EE /* CNMTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79A90FCB1C5E1327000428EE /* CNMTabBarController.m */; };
+		79A910091C5E1327000428EE /* CNMContactViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79A90FCD1C5E1327000428EE /* CNMContactViewController.m */; };
+		79A9100A1C5E1327000428EE /* NSLayoutConstraint+CNMAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 79A90FD11C5E1327000428EE /* NSLayoutConstraint+CNMAdditions.m */; };
+		79A9100B1C5E1327000428EE /* UIScreen+CNMAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 79A90FD31C5E1327000428EE /* UIScreen+CNMAdditions.m */; };
+		79A9100C1C5E1327000428EE /* UIView+CNMAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 79A90FD51C5E1327000428EE /* UIView+CNMAdditions.m */; };
+		79A9100D1C5E1327000428EE /* CNMLocalization.m in Sources */ = {isa = PBXBuildFile; fileRef = 79A90FD81C5E1327000428EE /* CNMLocalization.m */; };
+		79A9100E1C5E1327000428EE /* CNMReplaceRootControllerSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = 79A90FDD1C5E1327000428EE /* CNMReplaceRootControllerSegue.m */; };
+		79A910101C5E1327000428EE /* CNMVideoFeedManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 79A90FE21C5E1327000428EE /* CNMVideoFeedManager.m */; };
+		79A910131C5E1327000428EE /* CNMVideo.m in Sources */ = {isa = PBXBuildFile; fileRef = 79A90FE91C5E1327000428EE /* CNMVideo.m */; };
+		79A910141C5E1327000428EE /* CNMVideoPreset.m in Sources */ = {isa = PBXBuildFile; fileRef = 79A90FEB1C5E1327000428EE /* CNMVideoPreset.m */; };
+		79A910151C5E1327000428EE /* CNMIntroductionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 79A90FEE1C5E1327000428EE /* CNMIntroductionView.m */; };
+		79A910161C5E1327000428EE /* CNMLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 79A90FF11C5E1327000428EE /* CNMLabel.m */; };
+		79A910171C5E1327000428EE /* CNMPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 79A90FF31C5E1327000428EE /* CNMPageControl.m */; };
+		79A910191C5E1327000428EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79A90FF81C5E1327000428EE /* Assets.xcassets */; };
+		79A9101A1C5E1327000428EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79A90FFA1C5E1327000428EE /* LaunchScreen.storyboard */; };
+		79A9101B1C5E1327000428EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79A90FFC1C5E1327000428EE /* Main.storyboard */; };
+		79A9101C1C5E1327000428EE /* Introduction.strings in Resources */ = {isa = PBXBuildFile; fileRef = 79A90FFF1C5E1327000428EE /* Introduction.strings */; };
+		79A9101D1C5E1327000428EE /* Introduction.plist in Resources */ = {isa = PBXBuildFile; fileRef = 79A910011C5E1327000428EE /* Introduction.plist */; };
+		79A910291C5ED9F1000428EE /* CNMVideoEntryCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 79A910281C5ED9F1000428EE /* CNMVideoEntryCollectionViewCell.m */; };
+		79A910341C5FE9E8000428EE /* UIImage+CNMAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 79A910331C5FE9E8000428EE /* UIImage+CNMAdditions.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		135D1C07A9FD1435630F01EE /* Pods-Continuum.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Continuum.release.xcconfig"; path = "Pods/Target Support Files/Pods-Continuum/Pods-Continuum.release.xcconfig"; sourceTree = "<group>"; };
+		236F03AACD47068D821448E6 /* libPods-Continuum.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Continuum.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		791529BF1C7F072700FB82C4 /* CNMVimeoRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CNMVimeoRequest.h; sourceTree = "<group>"; };
+		791529C01C7F072700FB82C4 /* CNMVimeoRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CNMVimeoRequest.m; sourceTree = "<group>"; };
+		791529C21C7F08C700FB82C4 /* CNMVimeoVideoRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CNMVimeoVideoRequest.h; sourceTree = "<group>"; };
+		791529C31C7F08C700FB82C4 /* CNMVimeoVideoRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CNMVimeoVideoRequest.m; sourceTree = "<group>"; };
+		791529C51C7F9F8600FB82C4 /* CNMVimeoVideoCreditsRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CNMVimeoVideoCreditsRequest.h; sourceTree = "<group>"; };
+		791529C61C7F9F8600FB82C4 /* CNMVimeoVideoCreditsRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CNMVimeoVideoCreditsRequest.m; sourceTree = "<group>"; };
+		794220C61C63E44B001F2793 /* CNMNetorkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CNMNetorkManager.h; sourceTree = "<group>"; };
+		794220C71C63E44B001F2793 /* CNMNetorkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CNMNetorkManager.m; sourceTree = "<group>"; };
+		794220CA1C63E4B3001F2793 /* CNMBaseRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CNMBaseRequest.h; sourceTree = "<group>"; };
+		794220CB1C63E4B3001F2793 /* CNMBaseRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CNMBaseRequest.m; sourceTree = "<group>"; };
+		794220CD1C63F0DF001F2793 /* CNMBaseRequest+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CNMBaseRequest+Private.h"; sourceTree = "<group>"; };
+		794220D01C63F4CB001F2793 /* CNMVimeoChannelVideosRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CNMVimeoChannelVideosRequest.h; sourceTree = "<group>"; };
+		794220D11C63F4CB001F2793 /* CNMVimeoChannelVideosRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CNMVimeoChannelVideosRequest.m; sourceTree = "<group>"; };
+		79830B971C60421A00CF1780 /* CNMVideoEntryInformationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CNMVideoEntryInformationView.h; sourceTree = "<group>"; };
+		79830B981C60421A00CF1780 /* CNMVideoEntryInformationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CNMVideoEntryInformationView.m; sourceTree = "<group>"; };
+		79830B9A1C60B1B400CF1780 /* CNMButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CNMButton.h; sourceTree = "<group>"; };
+		79830B9B1C60B1B400CF1780 /* CNMButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CNMButton.m; sourceTree = "<group>"; };
+		79830B9D1C60C26800CF1780 /* CNMImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CNMImageView.h; sourceTree = "<group>"; };
+		79830B9E1C60C26800CF1780 /* CNMImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CNMImageView.m; sourceTree = "<group>"; };
+		79830BA01C60F2B500CF1780 /* CNMVideoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CNMVideoViewController.h; sourceTree = "<group>"; };
+		79830BA11C60F2B500CF1780 /* CNMVideoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CNMVideoViewController.m; sourceTree = "<group>"; };
+		79830BA51C62191100CF1780 /* CNMVideoPlayerUIView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CNMVideoPlayerUIView.h; sourceTree = "<group>"; };
+		79830BA61C62191100CF1780 /* CNMVideoPlayerUIView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CNMVideoPlayerUIView.m; sourceTree = "<group>"; };
+		798D0EEA1C62DBA600153C97 /* CNMPlayheadView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CNMPlayheadView.h; sourceTree = "<group>"; };
+		798D0EEB1C62DBA600153C97 /* CNMPlayheadView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CNMPlayheadView.m; sourceTree = "<group>"; };
+		798D0EED1C62ECDC00153C97 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		799710721CA7F13B00666522 /* NSArray+CNMAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+CNMAdditions.h"; sourceTree = "<group>"; };
+		799710731CA7F13B00666522 /* NSArray+CNMAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+CNMAdditions.m"; sourceTree = "<group>"; };
+		79A90FA41C5E12D5000428EE /* Continuum.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Continuum.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		79A90FA81C5E12D5000428EE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		79A90FC01C5E1327000428EE /* CNMApplicationDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CNMApplicationDelegate.h; sourceTree = "<group>"; };
+		79A90FC11C5E1327000428EE /* CNMApplicationDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CNMApplicationDelegate.m; sourceTree = "<group>"; };
+		79A90FC41C5E1327000428EE /* CNMFeedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CNMFeedViewController.h; sourceTree = "<group>"; };
+		79A90FC51C5E1327000428EE /* CNMFeedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CNMFeedViewController.m; sourceTree = "<group>"; };
+		79A90FC61C5E1327000428EE /* CNMIntroductionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CNMIntroductionViewController.h; sourceTree = "<group>"; };
+		79A90FC71C5E1327000428EE /* CNMIntroductionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CNMIntroductionViewController.m; sourceTree = "<group>"; };
+		79A90FC81C5E1327000428EE /* CNMRSSViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CNMRSSViewController.h; sourceTree = "<group>"; };
+		79A90FC91C5E1327000428EE /* CNMRSSViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CNMRSSViewController.m; sourceTree = "<group>"; };
+		79A90FCA1C5E1327000428EE /* CNMTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CNMTabBarController.h; sourceTree = "<group>"; };
+		79A90FCB1C5E1327000428EE /* CNMTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CNMTabBarController.m; sourceTree = "<group>"; };
+		79A90FCC1C5E1327000428EE /* CNMContactViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CNMContactViewController.h; sourceTree = "<group>"; };
+		79A90FCD1C5E1327000428EE /* CNMContactViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CNMContactViewController.m; sourceTree = "<group>"; };
+		79A90FD01C5E1327000428EE /* NSLayoutConstraint+CNMAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+CNMAdditions.h"; sourceTree = "<group>"; };
+		79A90FD11C5E1327000428EE /* NSLayoutConstraint+CNMAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+CNMAdditions.m"; sourceTree = "<group>"; };
+		79A90FD21C5E1327000428EE /* UIScreen+CNMAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScreen+CNMAdditions.h"; sourceTree = "<group>"; };
+		79A90FD31C5E1327000428EE /* UIScreen+CNMAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScreen+CNMAdditions.m"; sourceTree = "<group>"; };
+		79A90FD41C5E1327000428EE /* UIView+CNMAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+CNMAdditions.h"; sourceTree = "<group>"; };
+		79A90FD51C5E1327000428EE /* UIView+CNMAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+CNMAdditions.m"; sourceTree = "<group>"; };
+		79A90FD71C5E1327000428EE /* CNMLocalization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CNMLocalization.h; sourceTree = "<group>"; };
+		79A90FD81C5E1327000428EE /* CNMLocalization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CNMLocalization.m; sourceTree = "<group>"; };
+		79A90FDC1C5E1327000428EE /* CNMReplaceRootControllerSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CNMReplaceRootControllerSegue.h; sourceTree = "<group>"; };
+		79A90FDD1C5E1327000428EE /* CNMReplaceRootControllerSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CNMReplaceRootControllerSegue.m; sourceTree = "<group>"; };
+		79A90FE11C5E1327000428EE /* CNMVideoFeedManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CNMVideoFeedManager.h; sourceTree = "<group>"; };
+		79A90FE21C5E1327000428EE /* CNMVideoFeedManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CNMVideoFeedManager.m; sourceTree = "<group>"; };
+		79A90FE81C5E1327000428EE /* CNMVideo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CNMVideo.h; sourceTree = "<group>"; };
+		79A90FE91C5E1327000428EE /* CNMVideo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CNMVideo.m; sourceTree = "<group>"; };
+		79A90FEA1C5E1327000428EE /* CNMVideoPreset.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CNMVideoPreset.h; sourceTree = "<group>"; };
+		79A90FEB1C5E1327000428EE /* CNMVideoPreset.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CNMVideoPreset.m; sourceTree = "<group>"; };
+		79A90FED1C5E1327000428EE /* CNMIntroductionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CNMIntroductionView.h; sourceTree = "<group>"; };
+		79A90FEE1C5E1327000428EE /* CNMIntroductionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CNMIntroductionView.m; sourceTree = "<group>"; };
+		79A90FF01C5E1327000428EE /* CNMLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CNMLabel.h; sourceTree = "<group>"; };
+		79A90FF11C5E1327000428EE /* CNMLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CNMLabel.m; sourceTree = "<group>"; };
+		79A90FF21C5E1327000428EE /* CNMPageControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CNMPageControl.h; sourceTree = "<group>"; };
+		79A90FF31C5E1327000428EE /* CNMPageControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CNMPageControl.m; sourceTree = "<group>"; };
+		79A90FF61C5E1327000428EE /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79A90FF81C5E1327000428EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		79A90FFB1C5E1327000428EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		79A90FFD1C5E1327000428EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		79A910001C5E1327000428EE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Introduction.strings; sourceTree = "<group>"; };
+		79A910011C5E1327000428EE /* Introduction.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Introduction.plist; sourceTree = "<group>"; };
+		79A910021C5E1327000428EE /* uk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = uk; path = uk.lproj/Introduction.strings; sourceTree = "<group>"; };
+		79A910211C5E5B81000428EE /* CNMVideoPreset+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CNMVideoPreset+Private.h"; sourceTree = "<group>"; };
+		79A910241C5E8D5F000428EE /* CNMVideo+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CNMVideo+Private.h"; sourceTree = "<group>"; };
+		79A910271C5ED9F1000428EE /* CNMVideoEntryCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CNMVideoEntryCollectionViewCell.h; sourceTree = "<group>"; };
+		79A910281C5ED9F1000428EE /* CNMVideoEntryCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CNMVideoEntryCollectionViewCell.m; sourceTree = "<group>"; };
+		79A910321C5FE9E8000428EE /* UIImage+CNMAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+CNMAdditions.h"; sourceTree = "<group>"; };
+		79A910331C5FE9E8000428EE /* UIImage+CNMAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+CNMAdditions.m"; sourceTree = "<group>"; };
+		79A9A67E1C62FECA0078C364 /* CNMVideoPlayerUIProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CNMVideoPlayerUIProtocol.h; sourceTree = "<group>"; };
+		877046DAD9C6C2A6FD4C423A /* Pods-Continuum.adhoc.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Continuum.adhoc.xcconfig"; path = "Pods/Target Support Files/Pods-Continuum/Pods-Continuum.adhoc.xcconfig"; sourceTree = "<group>"; };
+		90F833FDB7E405046D2C94FB /* Pods-Continuum.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Continuum.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Continuum/Pods-Continuum.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		79A90FA11C5E12D5000428EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				798D0EEE1C62ECDC00153C97 /* MediaPlayer.framework in Frameworks */,
+				372A2923A954D9F0C2EBFDE4 /* libPods-Continuum.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6BC4CFAC9BACB7E888E30F96 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				90F833FDB7E405046D2C94FB /* Pods-Continuum.debug.xcconfig */,
+				135D1C07A9FD1435630F01EE /* Pods-Continuum.release.xcconfig */,
+				877046DAD9C6C2A6FD4C423A /* Pods-Continuum.adhoc.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		794220C51C63E44B001F2793 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				794220C91C63E4A5001F2793 /* Requests */,
+				794220C61C63E44B001F2793 /* CNMNetorkManager.h */,
+				794220C71C63E44B001F2793 /* CNMNetorkManager.m */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		794220C91C63E4A5001F2793 /* Requests */ = {
+			isa = PBXGroup;
+			children = (
+				794220D01C63F4CB001F2793 /* CNMVimeoChannelVideosRequest.h */,
+				794220D11C63F4CB001F2793 /* CNMVimeoChannelVideosRequest.m */,
+				791529C51C7F9F8600FB82C4 /* CNMVimeoVideoCreditsRequest.h */,
+				791529C61C7F9F8600FB82C4 /* CNMVimeoVideoCreditsRequest.m */,
+				791529C21C7F08C700FB82C4 /* CNMVimeoVideoRequest.h */,
+				791529C31C7F08C700FB82C4 /* CNMVimeoVideoRequest.m */,
+				791529BF1C7F072700FB82C4 /* CNMVimeoRequest.h */,
+				791529C01C7F072700FB82C4 /* CNMVimeoRequest.m */,
+				794220CD1C63F0DF001F2793 /* CNMBaseRequest+Private.h */,
+				794220CA1C63E4B3001F2793 /* CNMBaseRequest.h */,
+				794220CB1C63E4B3001F2793 /* CNMBaseRequest.m */,
+			);
+			path = Requests;
+			sourceTree = "<group>";
+		};
+		79A90F9B1C5E12D5000428EE = {
+			isa = PBXGroup;
+			children = (
+				79A90FA61C5E12D5000428EE /* Continuum */,
+				79A90FA51C5E12D5000428EE /* Products */,
+				8E58CFB82C30850728F7E342 /* Frameworks */,
+				6BC4CFAC9BACB7E888E30F96 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		79A90FA51C5E12D5000428EE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				79A90FA41C5E12D5000428EE /* Continuum.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		79A90FA61C5E12D5000428EE /* Continuum */ = {
+			isa = PBXGroup;
+			children = (
+				79A90FBE1C5E1327000428EE /* Classes */,
+				79A90FF41C5E1327000428EE /* Resources */,
+				79A90FA71C5E12D5000428EE /* Supporting Files */,
+			);
+			path = Continuum;
+			sourceTree = "<group>";
+		};
+		79A90FA71C5E12D5000428EE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				79A90FA81C5E12D5000428EE /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		79A90FBE1C5E1327000428EE /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				79A90FBF1C5E1327000428EE /* Controller */,
+				79A90FCE1C5E1327000428EE /* Misc */,
+				79A90FDE1C5E1327000428EE /* Model */,
+				79A90FEC1C5E1327000428EE /* View */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		79A90FBF1C5E1327000428EE /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				79A90FC61C5E1327000428EE /* CNMIntroductionViewController.h */,
+				79A90FC71C5E1327000428EE /* CNMIntroductionViewController.m */,
+				79A90FCC1C5E1327000428EE /* CNMContactViewController.h */,
+				79A90FCD1C5E1327000428EE /* CNMContactViewController.m */,
+				79830BA01C60F2B500CF1780 /* CNMVideoViewController.h */,
+				79830BA11C60F2B500CF1780 /* CNMVideoViewController.m */,
+				79A90FC01C5E1327000428EE /* CNMApplicationDelegate.h */,
+				79A90FC11C5E1327000428EE /* CNMApplicationDelegate.m */,
+				79A90FC41C5E1327000428EE /* CNMFeedViewController.h */,
+				79A90FC51C5E1327000428EE /* CNMFeedViewController.m */,
+				79A90FC81C5E1327000428EE /* CNMRSSViewController.h */,
+				79A90FC91C5E1327000428EE /* CNMRSSViewController.m */,
+				79A90FCA1C5E1327000428EE /* CNMTabBarController.h */,
+				79A90FCB1C5E1327000428EE /* CNMTabBarController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		79A90FCE1C5E1327000428EE /* Misc */ = {
+			isa = PBXGroup;
+			children = (
+				79A90FCF1C5E1327000428EE /* Categories */,
+				79A90FD91C5E1327000428EE /* Protocols */,
+				79A90FD61C5E1327000428EE /* Helpers */,
+				79A90FDB1C5E1327000428EE /* Segue */,
+			);
+			path = Misc;
+			sourceTree = "<group>";
+		};
+		79A90FCF1C5E1327000428EE /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				79A90FD01C5E1327000428EE /* NSLayoutConstraint+CNMAdditions.h */,
+				79A90FD11C5E1327000428EE /* NSLayoutConstraint+CNMAdditions.m */,
+				79A90FD21C5E1327000428EE /* UIScreen+CNMAdditions.h */,
+				79A90FD31C5E1327000428EE /* UIScreen+CNMAdditions.m */,
+				79A910321C5FE9E8000428EE /* UIImage+CNMAdditions.h */,
+				79A910331C5FE9E8000428EE /* UIImage+CNMAdditions.m */,
+				79A90FD41C5E1327000428EE /* UIView+CNMAdditions.h */,
+				79A90FD51C5E1327000428EE /* UIView+CNMAdditions.m */,
+				799710721CA7F13B00666522 /* NSArray+CNMAdditions.h */,
+				799710731CA7F13B00666522 /* NSArray+CNMAdditions.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		79A90FD61C5E1327000428EE /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				79A90FD71C5E1327000428EE /* CNMLocalization.h */,
+				79A90FD81C5E1327000428EE /* CNMLocalization.m */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		79A90FD91C5E1327000428EE /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				79A9A67E1C62FECA0078C364 /* CNMVideoPlayerUIProtocol.h */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		79A90FDB1C5E1327000428EE /* Segue */ = {
+			isa = PBXGroup;
+			children = (
+				79A90FDC1C5E1327000428EE /* CNMReplaceRootControllerSegue.h */,
+				79A90FDD1C5E1327000428EE /* CNMReplaceRootControllerSegue.m */,
+			);
+			path = Segue;
+			sourceTree = "<group>";
+		};
+		79A90FDE1C5E1327000428EE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				79A90FE31C5E1327000428EE /* Feed */,
+				794220C51C63E44B001F2793 /* Network */,
+				79A90FE11C5E1327000428EE /* CNMVideoFeedManager.h */,
+				79A90FE21C5E1327000428EE /* CNMVideoFeedManager.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		79A90FE31C5E1327000428EE /* Feed */ = {
+			isa = PBXGroup;
+			children = (
+				79A910211C5E5B81000428EE /* CNMVideoPreset+Private.h */,
+				79A90FEA1C5E1327000428EE /* CNMVideoPreset.h */,
+				79A90FEB1C5E1327000428EE /* CNMVideoPreset.m */,
+				79A910241C5E8D5F000428EE /* CNMVideo+Private.h */,
+				79A90FE81C5E1327000428EE /* CNMVideo.h */,
+				79A90FE91C5E1327000428EE /* CNMVideo.m */,
+			);
+			path = Feed;
+			sourceTree = "<group>";
+		};
+		79A90FEC1C5E1327000428EE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				79A90FEF1C5E1327000428EE /* General */,
+				79A910271C5ED9F1000428EE /* CNMVideoEntryCollectionViewCell.h */,
+				79A910281C5ED9F1000428EE /* CNMVideoEntryCollectionViewCell.m */,
+				79830B971C60421A00CF1780 /* CNMVideoEntryInformationView.h */,
+				79830B981C60421A00CF1780 /* CNMVideoEntryInformationView.m */,
+				79830BA51C62191100CF1780 /* CNMVideoPlayerUIView.h */,
+				79830BA61C62191100CF1780 /* CNMVideoPlayerUIView.m */,
+				79A90FED1C5E1327000428EE /* CNMIntroductionView.h */,
+				79A90FEE1C5E1327000428EE /* CNMIntroductionView.m */,
+				798D0EEA1C62DBA600153C97 /* CNMPlayheadView.h */,
+				798D0EEB1C62DBA600153C97 /* CNMPlayheadView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		79A90FEF1C5E1327000428EE /* General */ = {
+			isa = PBXGroup;
+			children = (
+				79A90FF21C5E1327000428EE /* CNMPageControl.h */,
+				79A90FF31C5E1327000428EE /* CNMPageControl.m */,
+				79830B9D1C60C26800CF1780 /* CNMImageView.h */,
+				79830B9E1C60C26800CF1780 /* CNMImageView.m */,
+				79830B9A1C60B1B400CF1780 /* CNMButton.h */,
+				79830B9B1C60B1B400CF1780 /* CNMButton.m */,
+				79A90FF01C5E1327000428EE /* CNMLabel.h */,
+				79A90FF11C5E1327000428EE /* CNMLabel.m */,
+			);
+			path = General;
+			sourceTree = "<group>";
+		};
+		79A90FF41C5E1327000428EE /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				79A90FF51C5E1327000428EE /* General */,
+				79A90FF71C5E1327000428EE /* Images */,
+				79A90FF91C5E1327000428EE /* Interface */,
+				79A90FFE1C5E1327000428EE /* Texts */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		79A90FF51C5E1327000428EE /* General */ = {
+			isa = PBXGroup;
+			children = (
+				79A90FF61C5E1327000428EE /* Info.plist */,
+			);
+			path = General;
+			sourceTree = "<group>";
+		};
+		79A90FF71C5E1327000428EE /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				79A90FF81C5E1327000428EE /* Assets.xcassets */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		79A90FF91C5E1327000428EE /* Interface */ = {
+			isa = PBXGroup;
+			children = (
+				79A90FFA1C5E1327000428EE /* LaunchScreen.storyboard */,
+				79A90FFC1C5E1327000428EE /* Main.storyboard */,
+			);
+			path = Interface;
+			sourceTree = "<group>";
+		};
+		79A90FFE1C5E1327000428EE /* Texts */ = {
+			isa = PBXGroup;
+			children = (
+				79A90FFF1C5E1327000428EE /* Introduction.strings */,
+				79A910011C5E1327000428EE /* Introduction.plist */,
+			);
+			path = Texts;
+			sourceTree = "<group>";
+		};
+		8E58CFB82C30850728F7E342 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				798D0EED1C62ECDC00153C97 /* MediaPlayer.framework */,
+				236F03AACD47068D821448E6 /* libPods-Continuum.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		79A90FA31C5E12D5000428EE /* Continuum */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79A90FBB1C5E12D5000428EE /* Build configuration list for PBXNativeTarget "Continuum" */;
+			buildPhases = (
+				9DE18063E959F0B236F2539F /* Check Pods Manifest.lock */,
+				79A90FA01C5E12D5000428EE /* Sources */,
+				79A90FA11C5E12D5000428EE /* Frameworks */,
+				79A90FA21C5E12D5000428EE /* Resources */,
+				E481F0D60E193B4BB86AD974 /* Embed Pods Frameworks */,
+				1753D7B7DB55CEE608B5DCFA /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Continuum;
+			productName = Continuum;
+			productReference = 79A90FA41C5E12D5000428EE /* Continuum.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		79A90F9C1C5E12D5000428EE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = CNM;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Continuum LLC";
+				TargetAttributes = {
+					79A90FA31C5E12D5000428EE = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = PNSK8KSF66;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 79A90F9F1C5E12D5000428EE /* Build configuration list for PBXProject "Continuum" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				uk,
+			);
+			mainGroup = 79A90F9B1C5E12D5000428EE;
+			productRefGroup = 79A90FA51C5E12D5000428EE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				79A90FA31C5E12D5000428EE /* Continuum */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		79A90FA21C5E12D5000428EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79A9101D1C5E1327000428EE /* Introduction.plist in Resources */,
+				79A9101A1C5E1327000428EE /* LaunchScreen.storyboard in Resources */,
+				79A9101C1C5E1327000428EE /* Introduction.strings in Resources */,
+				79A910191C5E1327000428EE /* Assets.xcassets in Resources */,
+				79A9101B1C5E1327000428EE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1753D7B7DB55CEE608B5DCFA /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Continuum/Pods-Continuum-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9DE18063E959F0B236F2539F /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E481F0D60E193B4BB86AD974 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Continuum/Pods-Continuum-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		79A90FA01C5E12D5000428EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79A910071C5E1327000428EE /* CNMRSSViewController.m in Sources */,
+				79830B9C1C60B1B400CF1780 /* CNMButton.m in Sources */,
+				79A9100C1C5E1327000428EE /* UIView+CNMAdditions.m in Sources */,
+				791529C41C7F08C700FB82C4 /* CNMVimeoVideoRequest.m in Sources */,
+				79A9100A1C5E1327000428EE /* NSLayoutConstraint+CNMAdditions.m in Sources */,
+				79A910291C5ED9F1000428EE /* CNMVideoEntryCollectionViewCell.m in Sources */,
+				791529C11C7F072700FB82C4 /* CNMVimeoRequest.m in Sources */,
+				79A910031C5E1327000428EE /* CNMApplicationDelegate.m in Sources */,
+				79A910151C5E1327000428EE /* CNMIntroductionView.m in Sources */,
+				79A9100B1C5E1327000428EE /* UIScreen+CNMAdditions.m in Sources */,
+				79830BA21C60F2B500CF1780 /* CNMVideoViewController.m in Sources */,
+				794220C81C63E44B001F2793 /* CNMNetorkManager.m in Sources */,
+				794220CC1C63E4B3001F2793 /* CNMBaseRequest.m in Sources */,
+				791529C71C7F9F8600FB82C4 /* CNMVimeoVideoCreditsRequest.m in Sources */,
+				79A910341C5FE9E8000428EE /* UIImage+CNMAdditions.m in Sources */,
+				79A9100E1C5E1327000428EE /* CNMReplaceRootControllerSegue.m in Sources */,
+				79830B991C60421A00CF1780 /* CNMVideoEntryInformationView.m in Sources */,
+				79A910141C5E1327000428EE /* CNMVideoPreset.m in Sources */,
+				79A910061C5E1327000428EE /* CNMIntroductionViewController.m in Sources */,
+				799710741CA7F13B00666522 /* NSArray+CNMAdditions.m in Sources */,
+				79A910161C5E1327000428EE /* CNMLabel.m in Sources */,
+				798D0EEC1C62DBA600153C97 /* CNMPlayheadView.m in Sources */,
+				79A910091C5E1327000428EE /* CNMContactViewController.m in Sources */,
+				79A910131C5E1327000428EE /* CNMVideo.m in Sources */,
+				79A910081C5E1327000428EE /* CNMTabBarController.m in Sources */,
+				79A910171C5E1327000428EE /* CNMPageControl.m in Sources */,
+				79830BA71C62191100CF1780 /* CNMVideoPlayerUIView.m in Sources */,
+				79A90FA91C5E12D5000428EE /* main.m in Sources */,
+				79A910051C5E1327000428EE /* CNMFeedViewController.m in Sources */,
+				79A9100D1C5E1327000428EE /* CNMLocalization.m in Sources */,
+				79830B9F1C60C26800CF1780 /* CNMImageView.m in Sources */,
+				79A910101C5E1327000428EE /* CNMVideoFeedManager.m in Sources */,
+				794220D21C63F4CB001F2793 /* CNMVimeoChannelVideosRequest.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		79A90FFA1C5E1327000428EE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				79A90FFB1C5E1327000428EE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		79A90FFC1C5E1327000428EE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				79A90FFD1C5E1327000428EE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		79A90FFF1C5E1327000428EE /* Introduction.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				79A910001C5E1327000428EE /* en */,
+				79A910021C5E1327000428EE /* uk */,
+			);
+			name = Introduction.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		79A90FB91C5E12D5000428EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		79A90FBA1C5E12D5000428EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		79A90FBC1C5E12D5000428EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 90F833FDB7E405046D2C94FB /* Pods-Continuum.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"COCOAPODS=1",
+					"PRODUCTION=0",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/Continuum/Resources/General/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.continuumluxury.continuum;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		79A90FBD1C5E12D5000428EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 135D1C07A9FD1435630F01EE /* Pods-Continuum.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"COCOAPODS=1",
+					"PRODUCTION=1",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/Continuum/Resources/General/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.continuumluxury.continuum;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		79A90F9F1C5E12D5000428EE /* Build configuration list for PBXProject "Continuum" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79A90FB91C5E12D5000428EE /* Debug */,
+				79A90FBA1C5E12D5000428EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79A90FBB1C5E12D5000428EE /* Build configuration list for PBXNativeTarget "Continuum" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79A90FBC1C5E12D5000428EE /* Debug */,
+				79A90FBD1C5E12D5000428EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 79A90F9C1C5E12D5000428EE /* Project object */;
+}
